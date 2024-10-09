@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hi</h1>
+    <div id="container">
+        <h1>BMI Calculator</h1>
+
+        <div id="weight">
+            <p>Weight(kg)</p>
+            <input type="number" id="weight_input" >
+        </div>
+
+        <div id="height">
+            <p>Height(m)</p>
+            <input type="number" name="" id="height_input">
+        </div>
+
+        <button onclick="w(); ">CALCULATE</button>
+        <div id="calc">
+            <h3 id="bmi-value">BMI:</h3>
+            <h2 id="message">-</h2>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
