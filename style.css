@@ -141,6 +141,7 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 @media(max-width:1450px){
@@ -174,4 +175,19 @@ button:hover{
         max-width: 100%; /* Ensure the max-width is also 100% */
         padding: 20px; /* Adjust padding for smaller screens */
     }
+}
+
+@media(max-width: 1103px){ 
+    #calc h2{ 
+        width: 20vw;
+    }
+
+}
+
+@media(max-width: 827px){ 
+    #calc h2{ 
+        width: 30vw;
+        font-size: medium;
+    }
+
 }
