@@ -7,20 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="container">
+    <!-- Main contaniner -->
+    <div id="container"> 
         <h1>BMI Calculator</h1>
 
+        <!-- Div for weight input -->
         <div id="weight">
             <p>Weight(kg)</p>
             <input type="number" id="weight_input" >
         </div>
 
+        <!-- Div for height input -->
         <div id="height">
             <p>Height(m)</p>
             <input type="number" name="" id="height_input">
         </div>
 
+        <!-- button , calling function when clicked -->
         <button onclick="w(); ">CALCULATE</button>
+
+        <!-- div for output -->
         <div id="calc">
             <h3 id="bmi-value">BMI:</h3>
             <h2 id="message">-</h2>
