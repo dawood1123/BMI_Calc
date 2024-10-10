@@ -38,3 +38,11 @@ function w() {
         w.value = "";
     }
 }
+
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        w();
+    }
+
+}); 
