@@ -101,6 +101,7 @@ h1{
 }
 
 button{ 
+    cursor: pointer;
     color: white;
     width: 80%;
     height: 5vh;
