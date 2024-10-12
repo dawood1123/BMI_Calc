@@ -15,7 +15,6 @@ html, body {
 #container{ 
     background-color: rgb(238, 238, 255);
     width: 30vw;
-    height: 70vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
